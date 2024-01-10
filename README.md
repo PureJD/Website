@@ -1,1 +1,1 @@
-# Website
+#This website has been created as a portfolio for my programming progression as well as a playground for HTML, CSS and Javascript. 
