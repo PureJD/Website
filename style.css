@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #292929;
+    background-color: black; 
   }
   
   /* Navigation Bar */
@@ -100,6 +100,12 @@ body {
     margin-top: 90px;
     color: #f78010;
   }
+
+  #about-me h3 {
+    font-size: 30px;
+    margin-top: 90px;
+    color: #f78010;
+  }
   
   #about-me p {
     font-size: 22px;
@@ -113,6 +119,19 @@ body {
     vertical-align: middle;
     margin: 5px;
   }
+
+  .ranks {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 5in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px orange;
+    color:#fb7e14
+  }
   
   /* Skills */
   
@@ -120,6 +139,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+    color:white;
   }
   
   .skill {
@@ -131,7 +151,7 @@ body {
     padding: 10px;
     width: 2in;
     font-size: 20px;
-    box-shadow: 0 3px 10px gray;
+    box-shadow: 0 3px 10px orange;
   }
   
   .skill img {
@@ -150,9 +170,9 @@ body {
   .skills p {
     align-items: center;
     font-size: 15px;
-    color: gray;
+    color:white;
     margin-block-start: 5px;
-    margin-block-end: 5px;
+    margin-block-end: 5px; 
   } 
   
   .flex_center {
@@ -166,10 +186,11 @@ body {
   .projects-container {
     margin-top: 30px;
     margin-left: 60px;
+    color: white;
   }
   
   .projects-container hr {
-    border: 1px solid lightgray;
+    border: 1px solid orange;
     width: 75%;
     margin-left: 5cm;
   }
