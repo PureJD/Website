@@ -1,154 +1,370 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="shortcut icon" type="image/x-icon" href="https://png.pngtree.com/png-clipart/20201010/ourmid/pngtree-beautiful-abstract-blue-gradient-snowflake-clipart-decoration-png-image_2359106.jpg" />
-    <title>JDavidson - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jon Davidson</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home2">
-        <div class="profile_name">
-          Jon Davidson
-          <div class="contact_info">
-           <img src="images/email.png" />
-          6454jonny@gmail.com
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="fw-bold h3 d-block d-lg-none">Jon Davidson</span>
+          <img
+            src="./assets/images/profilepic1.jpg"
+            class="d-none d-lg-block rounded-circle profilepic"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
+          </ul>
         </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="images/github.png" />
-          <a href="https://github.com/PureJD">Github - PureJD</a>
-
-        </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#about-me">Skills</a>
-          <a class="topmenu" href="#about-me">Projects</a>
-        </div>
-      </div>    
+      </div>
     </nav>
+    <!-- //NAV BAR -->
+    
 
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="images/Me.png" class="profile_image"/>
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+      <!-- HOME SECTION -->
+
+      <div class="social-icons">
+        <div class="row justify-content-between gy-4">
+          <div class="col-auto mb-0">
+          </div>
+          <div class="social-icons col-auto">
+            <a href="https://www.linkedin.com/in/jonathan-davidson-9b0838293"><i class="lab la-linkedin-in"></i></a>
+            <a href="https://github.com/PureJD"><i class="lab la-github"></i></a>
+            <a href="https://www.codewars.com/users/PureJD/badges/large"><i class="las la-code"></i></a>
+          </div>
+        </div>
       </div>
-
-      <div>
-          <h1>
-            Hi, I'm Jon! 
-          </h1>
-          <p>
-            I am a seasoned investigator turned software developer. 
-            Over my career as a detective in central London, I have developed
-             analytical and investigative skills, making me a strong problem solver.
-              I am also trained in finance and cryptocurrency technology.
-              <br>
-              <br>
-              I am a motivated learner and dedicate most of my spare time to acquiring proficiency in new coding languages and techniques. 
-              I set and complete personal projects, challenging myself daily with coding exercises. Additionally, I manage my own projects using Git and GitHub.
-          </p>
-          
-          
-          <div class="ranks">
-            <p2>CodeWars</p2>
-            <br>
-            <img src="https://www.codewars.com/users/PureJD/badges/small"/>
-          </div>
-          <div class="ranks">
-            <p2>LeetCode</p2>
-            <br>
-            <a href="https://leetcode.com/6454jonny/">LeetCode Profile</a>
-          </div>
       
-    </section>
-
+      <section id="home" class="full-hight px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="text-uppercase display-4 fw-bold" data-aos="fade-up">
+                I'm Jon, a skilled
+                <span class="text-brand">Python developer</span>
+              </h1>
+              <p
+                class="lead mt-2 mb-3 fs-3"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+              It's a pleasure to have you visit! Wander through my collection of work and witness the fusion of innovation and code I've achieved.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand fw-bold me-4">
+                  EXPLORE MY WORK</a
+                >
               
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="https://i.pinimg.com/originals/2f/9c/11/2f9c11f9e55efbf1791f12c06d60729b.jpg"/>
-          <h6>Python</h6>
-          <p>2 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="https://www.freepnglogos.com/uploads/javascript/logo-html-5-css-javascript-source-code-for-the-taking-23.png"/>
-          <h6>Web Development</h6>
-          <p>2 years experience</p>
-        </div>
-        
-        <div class="skill">
-          <img src="https://www.freeiconspng.com/thumbs/powershell-icon/powershell-icon-3.png"/>
-          <h6>Command line enviroments</h6>
-          <p>2 years experience</p>
-        </div>
-        
-        <div class="skill">
-          <img src="https://media.istockphoto.com/id/479536426/photo/magnifying-glass.jpg?s=612x612&w=0&k=20&c=cfAUATwVJPdtfRJSrzzbbl0cWrlU3SnGk5OTVGPNqJo="/>
-          <h6>Investigation</h6>
-          <p>10 years experience</p>
-        </div> 
-
-        
-
-          
-
-
-      </div>
-    </section>
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
-      <div style="clear:both;"></div>
-
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>
-              <a href="https://github.com/PureJD">GITHUB   </a>     : 
-            </h3>
-            
-            <ul>
-              <li>I am working on a wide array of projects which incorperate AI, SQL, networking, Webscraping and many more. Please visit my Github profile for further details. 
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
-          <hr>
-          <div class="project-card">
+        </div>
+      </section>
+      <!-- //HOME SECTION -->
+      
+
+      <!-- SERVICES -->
+      <section id="services" class="full-hight px-lg-5">
+        <div class="container">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>SKILLS</h6>
+              <h1>Primary Skills of Proficiency</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="lab la-python"></i>
+                </div>
+                <h5 class="mt-3 mb-4">Python</h5>
+                <p>
+                  Advanced proficiency in Python. Commitment to mastering the language to the highest degree across a wide range of libraries. 
+                </p>
+                <a href="https://github.com/PureJD" class="custom-link">See more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="las la-database"></i>
+                </div>
+                <h5 class="mt-3 mb-4"> SQL</h5>
+                <p>
+                  Database creation, management and interaction using SQL language and integration with software.
+                </p>
+                <a href="https://github.com/PureJD" class="custom-link">See more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h5 class="mt-3 mb-4">Web Design</h5>
+                <p>
+                  Designing web pages using HTML, CSS and JavaScript. A strong understanding of web languages for investigation.  
+                </p>
+                <a href="https://github.com/PureJD" class="custom-link">See more</a>
+              </div>
+            </div>
             
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="lab la-github-square"></i>
+                </div>
+                <h5 class="mt-3 mb-4">Version Control</h5>
+                <p>
+                  Confidence and experience in version control systems using Git command line, Github and Sourcetree.
+                </p>
+                <a href="https://github.com/PureJD" class="custom-link">See more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="las la-user-secret"></i>
+                </div>
+                <h5 class="mt-3 mb-4">OSINT</h5>
+                <p>
+                  Extensive investigation experience including digital and finacial crime as well as custom OSINT tool creation.
+                </p>
+                <a href="https://github.com/PureJD" class="custom-link">See more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="las la-table"></i>
+                </div>
+                <h5 class="mt-3 mb-4">Data Analysis</h5>
+                <p>
+                  Experience in libraries pandas, NumPy, and Matplotlib for data manipulation and visualisation.
+                </p>
+                <a href="https://github.com/PureJD" class="custom-link">See more</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- //SERVICES -->
+
+      <!-- WORK -->
+      <section id="work" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>WORK</h6>
+              <h1>My Rectent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6 rounded-4" data-aos="fade-up">
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-1.jpg" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4>OSINT Flagging Monitor Tool</h4>
+                  <p class="text-white">
+                    This is a tool devised for use within OSINT investigations in which a website is under investigation and updates to the site are expected and need to be recorded.
+                  </p>
+                  <a href="https://github.com/PureJD/OSINT-Monitor?tab=readme-ov-file" class="custom-link">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 rounded-4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-2.jpg" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4>AI OWL</h4>
+                  <p class="text-white">
+                    This is a program that displays a wise owl who can answer any question (using GPT-API), in the context of being an owl. The idea behind this program is to demonstrate the future utilisation of AI in video games. Characters can be spoken to and provide unique answers every time.
+                  </p>
+                  <a href="https://github.com/PureJD/AI-OWL" class="custom-link">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 rounded-4" data-aos="fade-up">
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-3.webp" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4>Bitcoin WebScraper</h4>
+                  <p class="text-white">
+                    This is a program that will provide the current price of bitcoin and alert you if it falls too far. This program demonstrates the use of webscrapers and how to extract specific data and how to use it effectively. 
+                  </p>
+                  <a href="https://github.com/PureJD/BitcoinWebScraper" class="custom-link">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 rounded-4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-4.png" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4>Python Projects</h4>
+                  <p class="text-white">
+                    A collection of smaller projects programmed in Python. This collection has been added to a single repository to prevent clutter.
+                  </p>
+                  <a href="https://github.com/PureJD/PythonProjects" class="custom-link">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+
+      <!-- ABOUT -->
+      <section id="about" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>ABOUT</h6>
+              <h1>Education / Experience</h1>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12" data-aos="fade-up" data-aos-delay="900">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Detective</h5>
+                <h6 class="text-brand">
+                  Metropolitan Police (2015 - 2024)
+                </h6>
+                <p>
+                  Extensive experience in investigations into a wide range of crimes including digital, financial, terrorism and violence.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Undergraduate Degree Music Technology</h5>
+                <h6 class="text-brand">
+                  Plymoyth University (2011 - 2014)
+                </h6>
+                <p>
+                  A study of music technology including recording techniques, electronics in music, music software technology and musical programming. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Btec National in Computing</h5>
+                <h6 class="text-brand">
+                  Bristol College (2007 - 2009)
+                </h6>
+                <p>
+                  A solid foundation in all aspects of computing including networking, programming and web design. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </section>
+      
+
+      
+
+            
+
+     
+
+            
+        
+      
+
+      <!-- FOOTER -->
+      <footer class="px-lg-5 py-4">
+        <div class="container m-4">
+          <div class="row justify-content-between gy-4">
+            <div class="col-auto mb-0">
+              <p>Jon Davidson 2024. No Copyright in place. Please feel free to clone this web page on GitHub as the foundation for your personal web page. https://github.com/PureJD/Website</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
     </div>
-    </section>
-    <div style="clear:both;"></div>
+    <!--//CONTENT WRAPPER -->
 
-    
-      </div>
-    </section>
-
-    <!-- Recommendation Form -->
-    
-
-    <div class="iconbutton">
-      <a href="#home">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-      </a>
-    </div>
-
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>Thanks for leaving a recommendation!</h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
