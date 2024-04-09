@@ -24,13 +24,13 @@
 .theme-swap {
   border-radius: 50%;
   position: fixed;
-  top: 80px;
+  top: 85px;
   left: 10px;
   z-index: 1500;
   border-radius: 100px; /* Keeps the button rounded */
   cursor: pointer;
-  background-color: #635f5f;
-  padding: 10px ; /* Add some padding */
+  background-color: #262626;
+  padding: 5px ; /* Add some padding */
   border: none; /* Remove the border */
   color:  #3daed3;
   transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
