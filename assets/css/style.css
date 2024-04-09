@@ -2,6 +2,7 @@
 
 /* Light Theme */
 :root {
+  --background-color: #a1a1a1; /* Dark background */
   --color-body: #b6cbce;
   --color-heading: #eef3db;
   --color-base: #635f5f;
@@ -14,13 +15,31 @@
 
 /* Dark Theme */
 [data-theme="dark"] {
-  --background-color: #363537; /* Dark background */
-  --text-color: #FAFAFA; /* Light text */
-  --nav-color: #343a40; /* Dark navbar */
+  --background-color: #121212; /* Dark background */
+  --text-color: #9e9a9a; /* Light text */
+   /* Dark navbar */
   /* Add other variables as needed */
 }
 
+.theme-swap {
+  border-radius: 50%;
+  position: fixed;
+  top: 50px;
+  left: 85px;
+  z-index: 1500;
+  border-radius: 100px; /* Keeps the button rounded */
+  cursor: pointer;
+  background-color: #635f5f;
+  padding: 5px ; /* Add some padding */
+  border: none; /* Remove the border */
+  color:  #3daed3;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
 
+.theme-swap:hover {
+  background-color:#3daed3; /* Lighter grey when hovered */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Glowing effect */
+}
 
 
 body {
@@ -31,7 +50,7 @@ body {
 
 .social-icons {
   position: fixed; /* Fix the position relative to the viewport */
-  top: 10px; /* Distance from the top of the viewport */
+  top: 40px; /* Distance from the top of the viewport */
   right: 10px; /* Distance from the right of the viewport */
   z-index: 1000; /* Ensure it sits above other content */
 }
