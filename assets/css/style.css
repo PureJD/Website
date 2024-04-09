@@ -24,7 +24,7 @@
 .theme-swap {
   border-radius: 50%;
   position: fixed;
-  top: 50px;
+  top: 70px;
   left: 10px;
   z-index: 1500;
   border-radius: 100px; /* Keeps the button rounded */
