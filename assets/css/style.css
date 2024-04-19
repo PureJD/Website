@@ -10,9 +10,10 @@
   --color-brand: #3daed3;
   --color-brand2: #0f2154;
   --sidbar-width: 240px;
-  --text-color: #000000; /* Light text */
+  --text-color: #3daed3; /* Light text */
   --font-base: "Kanit";
 }
+
 
 /* Dark Theme */
 [data-theme="dark"] {
@@ -42,6 +43,27 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Glowing effect */
 }
 
+
+/* Video background styling */
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensures it stays behind all other content */
+  object-fit: cover; /* Cover the whole screen */
+}
+
+/* Generic background color for content, with transparency */
+.bg-transparent {
+  background-color: rgb(0, 0, 0); /* Adjust transparency as needed */
+}
+
+/* Alternatively, you might want to adjust existing sections */
+#content-wrapper > section {
+  background-color: rgba(0, 0, 0, 0); /* Increase the transparency */
+}
 
 body {
   background-color: var(--background-color);       /* background-color: var(--color-base2); */
