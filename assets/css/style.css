@@ -128,7 +128,7 @@ img {
     min-height: 100vh !important;
     max-width: var(--sidbar-width) !important;
     background: linear-gradient(rgba(17, 18, 18, 0.8), rgba(123, 119, 119, 0.9)),
-      url("/assets/images/sidebar-img.jpg") !important;
+      url("/assets/images/1sidebar-img.jpg") !important;
     background-size: cover;
     background-position: center;
   }
