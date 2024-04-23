@@ -127,7 +127,7 @@ img {
   .navbar {
     min-height: 100vh !important;
     max-width: var(--sidbar-width) !important;
-    background: linear-gradient(rgba(17, 18, 18, 0.8), rgba(0, 0, 0, 0.8)),  /* Sidebar trans and colours  */
+    background: linear-gradient(rgba(17, 18, 18, 0), rgba(0, 0, 0, 0.8)),  /* Sidebar trans and colours  */
       url("/assets/images/1sidebar-img.jpg") !important;
     background-size: cover;
     background-position: center;
